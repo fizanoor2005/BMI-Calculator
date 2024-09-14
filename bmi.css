@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-weight: 100px;
+}
+body{
+    background-color:rgb(229, 229, 242);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+/* .calculate{
+    margin-top: 10px;
+}
+.clear{
+    margin-top: 0;
+} */
+.container{
+    width: 400px;
+    height:400px;
+    background-color: beige;
+   text-align: center;
+    
+}
+h1{
+    background-color: blue;
+    color:white
+}
+label{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+   border-radius: 60px;
+}
+button:hover{
+    background-color:rgb(154, 221, 128) ;
+}
+ input{
+    height: 30px;
+    width: 160px;
+    border: 1px solid black;
+}
+#bmi-status{
+    color: purple;
+}
+#bmi-value{
+    color: green;
+}
